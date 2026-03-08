@@ -1,0 +1,84 @@
+/* ANIMATIONS
+   This file contains CSS animations and transitions for the recipe website.
+   It includes hover effects for recipe cards and smooth transitions for interactive elements.
+*/
+
+
+/* hover animation for recipe cards */
+.recipe-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.recipe-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.2);
+}
+
+/* Image zoom effect
+   Slight zoom when hovering over a card to add visual depth.
+*/
+
+.recipe-card img {
+    transition: transform 0.4s ease;
+}
+
+.recipe-card:hover img {
+    transform: scale(1.05);
+}
+
+/* Button hover animation
+   Smooth transition makes color change less abrupt
+*/
+
+.button {
+    transition: background 0.3s ease;
+}
+
+.button:hover {
+    background: #555;
+}
+
+/* ----------------------------------------------------------------- */
+/* CSS animation params for hero section (index.html) */
+
+@keyframes fadeInHero {
+
+    from {
+    opacity: 0;
+    transform: translateY(20px);
+    }
+    
+    to {
+    opacity: 1;
+    transform: translateY(0);
+    }
+    
+    }
+    
+    .hero {
+    animation: fadeInHero 1s ease-out;
+    }
+    
+
+    /* 
+   story section css styling and animation
+*/
+
+.story-section {
+    animation: revealSection 0.8s ease;
+    }
+    
+    @keyframes revealSection {
+    
+    from {
+    opacity: 0;
+    transform: translateY(30px);
+    }
+    
+    to {
+    opacity: 1;
+    transform: translateY(0);
+    }
+    
+    }
+    
