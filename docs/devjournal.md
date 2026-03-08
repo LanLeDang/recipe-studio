@@ -293,11 +293,46 @@ Furthermore, this commit features the completion of the about.html, which goes o
 
 ## Date
 
+March 8, 2026 – 7:34 PM
+
+## Feature
+
+CRISTIN'S COMMIT:
+Completed contact.html
+
+---
+
+## Goal
+
+- Completed contact.html
+- Polish HTML
+
+---
+
+## Narrative / Log
+
+For this commit, I have finished the implementation for the contact.html
+
+This includes links to our respective contact information such as email, github, and linkedin.
+Implementation includes icons and link to each contact method
+
+## Challenges/Debugging
+
+N/A
+
+## Recap/Reflection
+
+Recap: next commit, the goal is to complete color scheme & finish styling
+
+---
+
+## Date
+
 March 8, 2026 – 6:00 PM
 
 ## Feature
 
-LAN'S PLANNED COMMIT: CONTACT.HTML
+CRISTIN'S PLANNED COMMIT: CONTACT.HTML
 
 ---
 
