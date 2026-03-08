@@ -251,6 +251,44 @@ N/A
 
 ## Recap/Reflection
 
+## Date
+
+March 8, 2026 – 5:20 PM
+
+## Feature
+
+CRISTIN'S COMMIT:
+Completed recipe instructions for each food item
+Completed about.html
+
+---
+
+## Goal
+
+- Completed recipe instructions; included ingredients needed with step-by-step in order to cook desired dish
+- Implemented directly within recipes.html
+- Completed implementation for about.html
+
+---
+
+## Narrative / Log
+
+Within this commit, we as a group decided to omit the recipe-detail.html and incorporate the recipe instructions directly into the recipes.html
+but as a pop-up, instead of it navigating the user to a different page.
+
+Furthermore, this commit features the completion of the about.html, which goes over the 'origin story' of the website, a quick introduction of each member in the group, and a quick explanation of implementation.
+
+## Challenges/Debugging
+
+    We anticipate challenges regarding this implementation. Although we previously mentioned that there would be a recipe-details.html file,
+    we decided to shift gears and make this implementation instead. We figured that this would help make the instructions for the recipe more robust and modern compared to taking you to a completely different, mundane page. With this decision, I (Cristin) completed the detail/instructions for all 6 of the recipes.
+
+    There were no issues regarding the about.html
+
+## Recap/Reflection
+
+    Recap: Next commits will be to wrap up the contact.html, while also completing the css styling for the pop-up and polishing the global css for the entire page.
+
 ---
 
 ## Date
