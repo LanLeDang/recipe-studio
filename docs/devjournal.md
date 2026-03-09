@@ -322,52 +322,38 @@ N/A
 
 ## Recap/Reflection
 
-Recap: next commit, the goal is to complete color scheme & finish styling
+Recap: Next commit will likely be the last, with completed CSS styling & color schemes, pop-ups for each recipe. In upcoming phase, focus is
+on completing deliverables, presentation, slides and submission. -->
 
 ---
 
 ## Date
 
-March 8, 2026 – 6:00 PM
+March 8, 2026 – 10:00 PM
 
 ## Feature
 
-CRISTIN'S PLANNED COMMIT: CONTACT.HTML
+- Completed pop-ups for recipes
+- CSS styling finished
 
 ---
 
 ## Goal
 
-- Completed HTML; marks the completion of all HTML files; can polish up css styling
+- Completion of both HTML & CSS files
 
 ---
 
 ## Narrative / Log
 
-Today I focused on building the recipes.html page structure.
-
-I used CSS Grid to organize recipe cards inside each recipe category.  
-The `.recipe-grid` container allows the layout to automatically adjust depending on screen size.
-
-Example HTML used:
-
-```html
-<form>
-  <label>Name</label>
-  <input type="text" name="name" />
-
-  <label>Email</label>
-  <input type="email" name="email" />
-
-  <label>Message</label>
-  <textarea name="message"></textarea>
-
-  <button type="submit">Send Message</button>
-</form>
-```
+For this last commit, we completed all parts of the project, with completed files for all HTML & CSS styling. Wrapping up video presentation, and will upload to youtube to prepare for submission
 
 ## Challenges/Debugging
 
-    N/A
+N/A
 
 ## Recap/Reflection
+
+Reflection: Finished completing project and testing functionality on PC and mobile.
+
+---
