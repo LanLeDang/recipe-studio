@@ -1,176 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Recipes | Recipe Studio</title>
 
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/animations.css">
-</head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
+    <header>
+      <h1>Recipe Studio</h1>
 
-<header>
-    <h1>Recipe Studio</h1>
-
-    <nav>
+      <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="recipes.html">Recipes</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="recipes.html">Recipes</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
-    </nav>
-</header>
+      </nav>
+    </header>
 
+    <main>
+      <h2>Recipe Chapters</h2>
 
-<main>
+      <section class="recipe-category">
+        <h3>Appetizers</h3>
+        <p>Light dishes to start your meal.</p>
 
-    <h2>Recipe Chapters</h2>
-    
-    <section class="recipe-category">
-    <h3>Appetizers</h3>
-    <p>Light dishes to start your meal.</p>
-    
-    <div class="recipe-grid">
-    
-        <div class="recipe-card">
-
-            <img src="assets/loadedpotatoskins.jpg" alt="Loaded Potato Skins">
-            
-            <div class="recipe-content">
-            
-            <h4>Loaded Potato Skins</h4>
-            
-            <p>Loaded potato skins are crispy potato halves topped with melted cheese, bacon,
-                and green onions!</p>
-            
-            <a class="button" href="recipe-detail.html">View Recipe</a>
-            
-            </div>
-            
-            </div>
-    
-        <div class="recipe-card">
-
-            <img src="assets/crabrangoons.jpeg" alt="Crab Rangoons">
+        <div class="recipe-grid">
+          <div class="recipe-card">
+            <img src="assets/loadedpotatoskins.jpg" alt="Loaded Potato Skins" />
 
             <div class="recipe-content">
+              <h4>Loaded Potato Skins</h4>
 
-                <h4>Crab Rangoons</h4>
+              <p>
+                Loaded potato skins are crispy potato halves topped with melted
+                cheese, bacon, and green onions!
+              </p>
 
-                <p>
-                    This Crab rangoon recipe is made with delicious crab and cream cheese filling
-                    wrapped in a wonton wrapper and fried to crispy prefection!
-                </p>
-                
-                <a class="button" href="https://www.abc.com">View Recipe</a>
-
+              <a class="button" href="#loaded-baked-potato-popup"
+                >View Recipe</a
+              >
             </div>
+          </div>
 
+          <div class="recipe-card">
+            <img src="assets/crabrangoons.jpeg" alt="Crab Rangoons" />
+
+            <div class="recipe-content">
+              <h4>Crab Rangoons</h4>
+
+              <p>
+                This Crab rangoon recipe is made with delicious crab and cream
+                cheese filling wrapped in a wonton wrapper and fried to crispy
+                prefection!
+              </p>
+
+              <a class="button" href="#crab-rangoons-popup">View Recipe</a>
+            </div>
+          </div>
         </div>
+      </section>
 
-    
-    </div>
-    </section>
-    
-    
-    <section class="recipe-category">
+      <section class="recipe-category">
         <h3>Main Dishes</h3>
         <p>Hearty recipes that form the center of your meal.</p>
 
         <div class="recipe-grid">
+          <div class="recipe-card">
+            <img
+              src="assets/smashburgertacos.jpg"
+              alt="Animal Style Smashburger Tacos"
+            />
 
-            <div class="recipe-card">
+            <div class="recipe-content">
+              <h4>Animal Style Smashburger Tacos</h4>
 
-                <img src="assets/smashburgertacos.jpg" alt="Animal Style Smashburger Tacos">
+              <p>
+                Animal Style! Pressing down on an extremely hot skillet cooks
+                the meat quickly and adds a delicious crust to the meat!
+              </p>
 
-                <div class="recipe-content">
-
-                    <h4>Animal Style Smashburger Tacos</h4>
-
-                    <p>
-                        Animal Style! Pressing down on an extremely hot skillet cooks 
-                        the meat quickly and adds a delicious crust to the meat!
-                    </p>
-
-                    <a class="button" href="https://cookingwithcocktailrings.com/animal-style-smashburger-tacos/">View Recipe</a>
-                
-                </div>
+              <a class="button" href="#smash-burger-popup">View Recipe</a>
             </div>
+          </div>
 
-            <div class="recipe-card">
+          <div class="recipe-card">
+            <img
+              src="assets/koreanfriedchicken.jpg"
+              alt="Korean Friend Chicken"
+            />
 
-                <img src="assets/koreanfriedchicken.jpg" alt="Korean Friend Chicken">
+            <div class="recipe-content">
+              <h4>Korean Fried Chicken</h4>
 
-                <div class="recipe-content">
+              <p>
+                Korean fried chicken is crispy, double-fried chicekn coated in a
+                flavorful sauce like sweet, spicy, or savory soy garlic.
+              </p>
 
-                    <h4>Korean Fried Chicken</h4>
-
-                    <p>
-                        Korean fried chicken is crispy, double-fried chicekn coated in a
-                        flavorful sauce like sweet, spicy, or savory soy garlic. 
-                    </p>
-
-                    <a class="button" href="https://www.thekitchn.com/korean-fried-chicken-recipe-23675136">View Recipe</a>
-                
-                </div>
+              <a class="button" href="#korean-fried-chicken-popup"
+                >View Recipe</a
+              >
             </div>
+          </div>
         </div>
-    </section>
+      </section>
 
-    <section class="recipe-category">
+      <section class="recipe-category">
         <h3>Desserts</h3>
         <p>Sweet dishes to finish your cooking journey.</p>
-    
+
         <div class="recipe-grid">
-    
-            <div class="recipe-card">
-                <img src="assets/yogurtclusters.jpg" alt="Chocolate Strawberry Yogurt Clusters">
-                <div class="recipe-content">
-                    <h4>Chocolate Strawberry Yogurt Clusters</h4>
-                    <p>
-                        These chocolate-covered strawberry yogurt clusters put a fun spin on the viral
-                        Tiktok fruit clusters!
-                    </p>
-                    <a class="button" href="https://www.walderwellness.com/chocolate-strawberry-yogurt-clusters/">View Recipe</a>
-                </div>
+          <div class="recipe-card">
+            <img
+              src="assets/yogurtclusters.jpg"
+              alt="Chocolate Strawberry Yogurt Clusters"
+            />
+            <div class="recipe-content">
+              <h4>Chocolate Strawberry Yogurt Clusters</h4>
+              <p>
+                These chocolate-covered strawberry yogurt clusters put a fun
+                spin on the viral Tiktok fruit clusters!
+              </p>
+              <a class="button" href="#strawberry-yogurt-clusters-popup"
+                >View Recipe</a
+              >
             </div>
-    
-            <div class="recipe-card">
-                <img src="assets/chethai.jpg" alt="Vietnamese Che Thai">
-                <div class="recipe-content">
-                    <h4>Che Thai</h4>
-                    <p>
-                        Che Thai is a sweet Vietnamese dessert made with mixed fruits, 
-                        colorful jellies, and coconut milk, often served over ice!
-                    </p>
-                    <a class="button" href="https://jenhdao.com/che-thai/">View Recipe</a>
-                </div>
+          </div>
+
+          <div class="recipe-card">
+            <img src="assets/chethai.jpg" alt="Vietnamese Che Thai" />
+            <div class="recipe-content">
+              <h4>Che Thai</h4>
+              <p>
+                Che Thai is a sweet Vietnamese dessert made with mixed fruits,
+                colorful jellies, and coconut milk, often served over ice!
+              </p>
+              <a class="button" href="#che-thai-popup">View Recipe</a>
             </div>
-    
+          </div>
         </div>
-    </section>
+      </section>
     </main>
-    
-    
-<footer>
-    <p>Copyright © Recipe Studio 2026</p>
-</footer>
 
+    <footer>
+      <div id="footer-sections-wrapper">
+        <section id="footer-description-section">
+          <h2>Recipe Studio</h2>
+          <p>
+            Where every meal tells a story, whether it's the first bite of an
+            appetizer or the last bite of dessert.
+          </p>
+        </section>
 
+        <section id="footer-browse-section">
+          <h2>Browse</h2>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </section>
 
-<!-- <div>
-    <article class="recipe">
+        <div id="footer-mobile-view-upper-section-wrapper">
+          <section id="footer-description-section-mobile-view">
+            <h2>Recipe Studio</h2>
+            <p>
+              Where every meal tells a story, whether it's the first bite of an
+              appetizer or the last bite of dessert.
+            </p>
+          </section>
+
+          <section id="footer-browse-section-mobile-view">
+            <h2>Browse</h2>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="recipes.html">Recipes</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </section>
+        </div>
+
+        <section id="footer-contact-section">
+          <h2>Contact</h2>
+
+          <div class="contact-info-wrapper">
+            <div class="member-contact-info">
+              <h3>Cristin Khor</h3>
+              <ul>
+                <li>
+                  <a href="mailto:khorcristin3@gmail.com">Email</a>
+                </li>
+                <li>
+                  <a href="https://github.com/CristinKhor" target="_blank"
+                    >Github</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/cristin-khor-254255178/"
+                    target="_blank"
+                    >LinkedIn</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="member-contact-info">
+              <h3>Lan Le Dang</h3>
+              <ul>
+                <li>
+                  <a href="mailto:lanledang.office@gmail.com">Email</a>
+                </li>
+                <li>
+                  <a href="https://github.com/LanLeDang" target="_blank"
+                    >Github</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/lan-l-b2211235a"
+                    target="_blank"
+                    >LinkedIn</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+      <p>Copyright © Recipe Studio 2026</p>
+    </footer>
+
+    <div id="loaded-baked-potato-popup" class="recipe-popup">
+      <article class="recipe">
+        <a href="#">
+          <img
+            class="close-window-icon"
+            src="./assets/close_arrow_icon.svg"
+            alt="Close Arrow Icon"
+          />
+        </a>
 
         <h2>Loaded Potato Skins</h2>
-        
+
         <section class="ingredients">
-        
-            <h3>Ingredients</h3>
-            
-            <ul>
+          <h3>Ingredients</h3>
+
+          <ul>
             <li>4 large russet potatoes</li>
             <li>2 tablespoons olive oil</li>
             <li>1 cup shredded cheddar cheese</li>
@@ -178,38 +266,44 @@
             <li>1/2 cup sour cream</li>
             <li>2 tablespoons chopped green onions</li>
             <li>Salt and pepper to taste</li>
-            </ul>
-        
+          </ul>
         </section>
-        
+
         <section class="instructions">
-        
-            <h3>Instructions</h3>
-            
-            <ol>
+          <h3>Instructions</h3>
+
+          <ol>
             <li>Preheat oven to 400°F (200°C).</li>
             <li>Bake potatoes for about 45–50 minutes until tender.</li>
             <li>Cut potatoes in half and scoop out most of the flesh.</li>
             <li>Brush skins with olive oil and season with salt and pepper.</li>
             <li>Bake skins for 10 minutes until crispy.</li>
-            <li>Fill with cheese and bacon, then bake again until cheese melts.</li>
+            <li>
+              Fill with cheese and bacon, then bake again until cheese melts.
+            </li>
             <li>Top with sour cream and green onions before serving.</li>
-            </ol>
-        
+          </ol>
         </section>
-        
-    </article>
-</div>
-<div>
-    <article class="recipe">
+      </article>
+      <div class="recipe-popup-overlay"></div>
+    </div>
+
+    <div id="crab-rangoons-popup" class="recipe-popup">
+      <article class="recipe">
+        <a href="#">
+          <img
+            class="close-window-icon"
+            src="./assets/close_arrow_icon.svg"
+            alt="Close Arrow Icon"
+          />
+        </a>
 
         <h2>Crab Rangoons</h2>
-        
+
         <section class="ingredients">
-        
-            <h3>Ingredients</h3>
-            
-            <ul>
+          <h3>Ingredients</h3>
+
+          <ul>
             <li>15 square wonton wrappers</li>
             <li>1 cup (8 oz) cream cheese</li>
             <li>1/2 cup (4 oz) imitation crab, shredded and chopped</li>
@@ -218,50 +312,56 @@
             <li>1 green onion, sliced</li>
             <li>Neutral oil, for frying</li>
             <li>Sweet chili sauce, for serving</li>
-            </ul>
-        
+          </ul>
         </section>
-        
-        <section class="instructions">
-        
-            <h3>Instructions</h3>
-            
-            <ol>
-            <li>In a bowl, mix together the cream cheese, imitation crab, garlic powder, soy sauce, and green onion. 
-                Taste and adjust if needed.
-            </li>
-            <li>
-                Wet the edges of a wonton wrapper with water. Place a small spoonful of filling in the center, 
-                then fold all four corners together and pinch to seal. Repeat with the remaining wrappers, 
-                keeping both the wrappers and folded rangoons covered with a damp towel so they do not dry out.
-            </li>
-            <li>
-                Heat neutral oil in a pot or fryer to 350°F. Fry the crab rangoons in batches for about 3 to 4 minutes, 
-                or until golden and crispy. Do not overcrowd the pot.
-            </li>
-            <li>
-                Remove the rangoons and place them on a paper towel-lined plate to drain excess oil.
 
+        <section class="instructions">
+          <h3>Instructions</h3>
+
+          <ol>
+            <li>
+              In a bowl, mix together the cream cheese, imitation crab, garlic
+              powder, soy sauce, and green onion. Taste and adjust if needed.
+            </li>
+            <li>
+              Wet the edges of a wonton wrapper with water. Place a small
+              spoonful of filling in the center, then fold all four corners
+              together and pinch to seal. Repeat with the remaining wrappers,
+              keeping both the wrappers and folded rangoons covered with a damp
+              towel so they do not dry out.
+            </li>
+            <li>
+              Heat neutral oil in a pot or fryer to 350°F. Fry the crab rangoons
+              in batches for about 3 to 4 minutes, or until golden and crispy.
+              Do not overcrowd the pot.
+            </li>
+            <li>
+              Remove the rangoons and place them on a paper towel-lined plate to
+              drain excess oil.
             </li>
             <li>Serve hot with sweet chili sauce.</li>
-            </ol>
-        
+          </ol>
         </section>
-    
-    </article>
-</div>
+      </article>
+      <div class="recipe-popup-overlay"></div>
+    </div>
 
-
-<div>
-    <article class="recipe">
+    <div id="smash-burger-popup" class="recipe-popup">
+      <article class="recipe">
+        <a href="#">
+          <img
+            class="close-window-icon"
+            src="./assets/close_arrow_icon.svg"
+            alt="Close Arrow Icon"
+          />
+        </a>
 
         <h2>Animal Style Smashburger Tacos</h2>
-        
+
         <section class="ingredients">
-        
-            <h3>Ingredients</h3>
-            
-            <ul>
+          <h3>Ingredients</h3>
+
+          <ul>
             <li>1/3 cup mayonnaise</li>
             <li>3 tablespoons ketchup</li>
             <li>2 tablespoons sweet pickle relish</li>
@@ -279,56 +379,63 @@
             <li>Sliced dill pickles</li>
             <li>1 small Campari tomato, thinly sliced</li>
             <li>1 romaine heart, finely shredded</li>
-            </ul>
-        
+          </ul>
         </section>
-        
-        <section class="instructions">
-        
-            <h3>Instructions</h3>
-            
-            <ol>
-            <li>
-                Make the spread by whisking together the mayonnaise, ketchup, pickle relish, 
-                red onion, white vinegar, and sugar in a small bowl. 
-                Cover and refrigerate until ready to use.
-            </li>
-            <li>
-                Press the ground beef thinly onto each tortilla, spreading it all the way to the edges. 
-                Spread a little yellow mustard on top of the beef, then season with salt and pepper.
-            </li>
-            <li>
-                Heat a large cast-iron skillet over high heat. Place the tortillas meat-side down into 
-                the hot pan and firmly press so the beef cooks flat against the skillet.
-            </li>
-            <li>
-                Cook for about 1 minute, then scrape and flip the tortilla briefly to warm the other side. 
-                Remove and immediately place a slice of American cheese on top. Repeat with the remaining tacos.
-            </li>
-            <li>
-                Add the diced onion to the skillet and cook in the rendered beef fat until soft 
-                and lightly browned, about 8 minutes.
-            </li>
-            <li>Assemble each taco with a spoonful of spread, grilled onions, pickles, tomato, and 
-                shredded lettuce. Serve hot.
-            </li>
-            </ol>
-        
-        </section>
-        
-    </article>
-</div>
 
-<div>
-    <article class="recipe">
+        <section class="instructions">
+          <h3>Instructions</h3>
+
+          <ol>
+            <li>
+              Make the spread by whisking together the mayonnaise, ketchup,
+              pickle relish, red onion, white vinegar, and sugar in a small
+              bowl. Cover and refrigerate until ready to use.
+            </li>
+            <li>
+              Press the ground beef thinly onto each tortilla, spreading it all
+              the way to the edges. Spread a little yellow mustard on top of the
+              beef, then season with salt and pepper.
+            </li>
+            <li>
+              Heat a large cast-iron skillet over high heat. Place the tortillas
+              meat-side down into the hot pan and firmly press so the beef cooks
+              flat against the skillet.
+            </li>
+            <li>
+              Cook for about 1 minute, then scrape and flip the tortilla briefly
+              to warm the other side. Remove and immediately place a slice of
+              American cheese on top. Repeat with the remaining tacos.
+            </li>
+            <li>
+              Add the diced onion to the skillet and cook in the rendered beef
+              fat until soft and lightly browned, about 8 minutes.
+            </li>
+            <li>
+              Assemble each taco with a spoonful of spread, grilled onions,
+              pickles, tomato, and shredded lettuce. Serve hot.
+            </li>
+          </ol>
+        </section>
+      </article>
+      <div class="recipe-popup-overlay"></div>
+    </div>
+
+    <div id="korean-fried-chicken-popup" class="recipe-popup">
+      <article class="recipe">
+        <a href="#">
+          <img
+            class="close-window-icon"
+            src="./assets/close_arrow_icon.svg"
+            alt="Close Arrow Icon"
+          />
+        </a>
 
         <h2>Korean Fried Chicken</h2>
-        
+
         <section class="ingredients">
-        
-            <h3>Ingredients</h3>
-            
-            <ul>
+          <h3>Ingredients</h3>
+
+          <ul>
             <li>Boneless chicken thighs</li>
             <li>Cornstarch</li>
             <li>Neutral oil, for frying</li>
@@ -342,116 +449,125 @@
             <li>Curry powder</li>
             <li>Baking powder</li>
             <li>Cold water</li>
-            </ul>
-        
+          </ul>
         </section>
-        
+
         <section class="instructions">
-        
-            <h3>Instructions</h3>
-            
-            <ol>
+          <h3>Instructions</h3>
+
+          <ol>
             <li>
-                In a large bowl, mix the marinade ingredients together, 
-                then add the chicken and toss well to coat. 
-                Let it marinate briefly, or longer in the fridge for more flavor.
+              In a large bowl, mix the marinade ingredients together, then add
+              the chicken and toss well to coat. Let it marinate briefly, or
+              longer in the fridge for more flavor.
             </li>
             <li>
-                In another bowl, whisk together the batter ingredients until thick 
-                but still pourable.
+              In another bowl, whisk together the batter ingredients until thick
+              but still pourable.
             </li>
             <li>
-                Add the marinated chicken to the batter and coat each piece evenly.
+              Add the marinated chicken to the batter and coat each piece
+              evenly.
             </li>
             <li>
-                Heat oil in a deep skillet, wok, or heavy pot to about 350°F.
+              Heat oil in a deep skillet, wok, or heavy pot to about 350°F.
             </li>
             <li>
-                Carefully lower the chicken into the hot oil in small batches and fry until golden brown and crisp, turning as needed. 
-                The Kitchn snippet indicates about 8 minutes for pieces in hot oil; the similar full recipe source gives 
-                longer times depending on cut size.
+              Carefully lower the chicken into the hot oil in small batches and
+              fry until golden brown and crisp, turning as needed. The Kitchn
+              snippet indicates about 8 minutes for pieces in hot oil; the
+              similar full recipe source gives longer times depending on cut
+              size.
             </li>
             <li>
-                Transfer the fried chicken to a wire rack or 
-                paper towel-lined tray to drain excess oil.
+              Transfer the fried chicken to a wire rack or paper towel-lined
+              tray to drain excess oil.
             </li>
-            <li>
-                Serve hot.
-            </li>
-            </ol>
-        
+            <li>Serve hot.</li>
+          </ol>
         </section>
-        
-    </article>
-</div>
+      </article>
+      <div class="recipe-popup-overlay"></div>
+    </div>
 
-<div>
-    <article class="recipe">
-
+    <div id="strawberry-yogurt-clusters-popup" class="recipe-popup">
+      <article class="recipe">
         <h2>Chocolate-Covered Strawberry Yogurt Clusters</h2>
-        
+
         <section class="ingredients">
-        
-            <h3>Ingredients</h3>
-            
-            <ul>
+          <a href="#">
+            <img
+              class="close-window-icon"
+              src="./assets/close_arrow_icon.svg"
+              alt="Close Arrow Icon"
+            />
+          </a>
+
+          <h3>Ingredients</h3>
+
+          <ul>
             <li>1 cup strawberries, diced</li>
             <li>1/2 cup plain Greek yogurt</li>
             <li>1 teaspoon vanilla extract</li>
             <li>1 cup semisweet chocolate chips</li>
             <li>2 teaspoons coconut oil</li>
-            </ul>
-        
+          </ul>
         </section>
-        
+
         <section class="instructions">
-        
-            <h3>Instructions</h3>
-            
-            <ol>
+          <h3>Instructions</h3>
+
+          <ol>
+            <li>Line a large baking sheet or tray with parchment paper.</li>
             <li>
-                Line a large baking sheet or tray with parchment paper.
+              Add the diced strawberries to a large bowl. Mix in the Greek
+              yogurt and vanilla extract until the strawberries are well coated.
             </li>
             <li>
-                Add the diced strawberries to a large bowl. Mix in the Greek yogurt and 
-                vanilla extract until the strawberries are well coated.
+              Scoop the mixture onto the lined baking sheet, using about 2
+              tablespoons for each cluster. Leave space between each one. You
+              should get about 8 clusters.
             </li>
             <li>
-                Scoop the mixture onto the lined baking sheet, using about 2 tablespoons for each cluster. 
-                Leave space between each one. You should get about 8 clusters.
+              Place the tray in the freezer for 30 to 45 minutes, until the
+              clusters are firm.
             </li>
             <li>
-                Place the tray in the freezer for 30 to 45 minutes, until the clusters are firm.
+              Near the end of the freezing time, add the chocolate chips and
+              coconut oil to a small bowl. Microwave in 30-second intervals,
+              stirring between each, until smooth.
             </li>
             <li>
-                Near the end of the freezing time, add the chocolate chips and coconut oil to a small bowl. 
-                Microwave in 30-second intervals, stirring between each, until smooth.
+              Remove the clusters from the freezer. Using a spoon, quickly dip
+              or coat each cluster in the melted chocolate, then place it back
+              on the baking sheet.
             </li>
             <li>
-                Remove the clusters from the freezer. Using a spoon, quickly dip or coat each cluster in the melted chocolate, 
-                then place it back on the baking sheet.
+              Let the clusters sit for a few minutes until the chocolate
+              hardens, then serve.
             </li>
-            <li>
-                Let the clusters sit for a few minutes until the chocolate hardens, then serve.
-            </li>
-            </ol>
-        
+          </ol>
         </section>
-        
-    </article>
-</div>
+      </article>
+      <div class="recipe-popup-overlay"></div>
+    </div>
 
-
-<div>
-    <article class="recipe">
+    <div id="che-thai-popup" class="recipe-popup">
+      <article class="recipe">
+        <a href="#">
+          <img
+            class="close-window-icon"
+            src="./assets/close_arrow_icon.svg"
+            alt="Close Arrow Icon"
+          />
+        </a>
 
         <h2>Che Thai</h2>
-        
+
         <section class="ingredients">
-        
-            <h3>Ingredients</h3>
-            
-            <ul>
+          <h3>Ingredients</h3>
+
+          <ul>
             <li>1 can water chestnuts, cut into small cubes</li>
             <li>2–3 drops red food coloring</li>
             <li>2 cups tapioca starch</li>
@@ -462,51 +578,48 @@
             <li>1 can coconut jelly</li>
             <li>1 can aiyu jelly, cut into cubes</li>
             <li>1 can toddy palm seed and jackfruit</li>
-            </ul>
-        
+          </ul>
         </section>
-        
+
         <section class="instructions">
-        
-            <h3>Instructions</h3>
-            
-            <ol>
+          <h3>Instructions</h3>
+
+          <ol>
             <li>
-                Place the cubed water chestnuts in a bowl with the red food coloring and 
-                toss until evenly coated. Let them sit for 5 to 10 minutes.
+              Place the cubed water chestnuts in a bowl with the red food
+              coloring and toss until evenly coated. Let them sit for 5 to 10
+              minutes.
             </li>
             <li>
-                Add the tapioca starch to a large bowl, then toss the colored water chestnuts in the starch 
-                until fully coated. Shake off the excess starch.
+              Add the tapioca starch to a large bowl, then toss the colored
+              water chestnuts in the starch until fully coated. Shake off the
+              excess starch.
             </li>
             <li>
-                Bring a pot of water to a boil. Add the coated chestnuts and boil until they float, 
-                about 1 to 2 minutes. Transfer them to an ice bath and set aside.
+              Bring a pot of water to a boil. Add the coated chestnuts and boil
+              until they float, about 1 to 2 minutes. Transfer them to an ice
+              bath and set aside.
             </li>
             <li>
-                In a large bowl or pitcher, whisk together the half-and-half and sweetened condensed 
-                milk until smooth. Chill until ready to use.
+              In a large bowl or pitcher, whisk together the half-and-half and
+              sweetened condensed milk until smooth. Chill until ready to use.
             </li>
             <li>
-                Drain all the canned fruits and jellies. Cut any larger pieces, like the aiyu jelly or 
-                jackfruit, into smaller pieces if needed.
+              Drain all the canned fruits and jellies. Cut any larger pieces,
+              like the aiyu jelly or jackfruit, into smaller pieces if needed.
             </li>
             <li>
-                In serving bowls or cups, add the red rubies and your choice of fruits and jellies. 
-                Pour the sweet milk mixture over the top.
+              In serving bowls or cups, add the red rubies and your choice of
+              fruits and jellies. Pour the sweet milk mixture over the top.
             </li>
             <li>
-                Add crushed ice if desired, then serve immediately or chill for 1 to 2 hours before serving.
+              Add crushed ice if desired, then serve immediately or chill for 1
+              to 2 hours before serving.
             </li>
-            </ol>
-        
+          </ol>
         </section>
-        
-    </article>
-</div> -->
-
-
-</body>
+      </article>
+      <div class="recipe-popup-overlay"></div>
+    </div>
+  </body>
 </html>
-
-
